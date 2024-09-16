@@ -45,39 +45,37 @@ ReservationID: Primary Key
 BookID: Foreign Key to Books Table
 UserID: Foreign Key to Users Table
 ReservationDate: Date when the book was reserved
+
+
+
 Features
-Admin Features:
-Book Management: Add, update, and remove books from the library database.
-User Management: Manage customer profiles, view borrowing history.
-Transactions: Track book borrowing, returns, and reservations.
-Fine Calculation: Calculate fines for late returns.
-Customer Features:
-Book Search: Search books by title, author, or category.
-Borrow Books: Borrow available books.
-Reserve Books: Reserve books if not available.
-Profile Management: Edit personal profile details.
-Usage
-Admin:
-Login: Use the default admin credentials to log in.
-Manage Books: Navigate to the book management screen to add, edit, or delete books.
-View Transactions: View all book transactions, including current borrowings and overdue books.
-Track Fines: Manage and calculate fines for overdue books.
-Customer:
-Login: Use your credentials to log in as a customer.
-Search Books: Search for books by title, author, or genre.
-Reserve Books: Reserve unavailable books.
-Borrow Books: Borrow books if available and track your borrowing history.
-Manage Profile: Update personal information, such as name, email, and phone number.
-Screenshots
-Login Screen:
-
-Admin Dashboard:
-
-Book Management:
-
-User Profile:
-
-Contributors
-Developer 1: Database Design and Backend Logic.
-Developer 2: C# GUI Development.
-Developer 3: Testing and Documentation.
+1-Admin Features:
+  Book Management: Add, update, and remove books from the library database.
+  
+  User Management: Manage customer profiles, view borrowing history.
+  
+  Transactions: Track book borrowing, returns, and reservations.
+  
+  Fine Calculation: Calculate fines for late returns.
+  
+2-Customer Features:
+  Book Search: Search books by title, author, or category.
+  Borrow Books: Borrow available books.
+  Reserve Books: Reserve books if not available.
+  Profile Management: Edit personal profile details.
+3-Usage
+  Admin:
+    Login: Use the default admin credentials to log in.
+    Manage Books: Navigate to the book management screen to add, edit, or delete books.
+    View Transactions: View all book transactions, including current borrowings and overdue books.
+    Track Fines: Manage and calculate fines for overdue books.
+  Customer:
+    Login: Use your credentials to log in as a customer.
+    Search Books: Search for books by title, author, or genre.
+    Reserve Books: Reserve unavailable books.
+    Borrow Books: Borrow books if available and track your borrowing history.
+    Manage Profile: Update personal information, such as name, email, and phone number.
+4-Contributors
+  Developer 1: Database Design and Backend Logic.
+  Developer 2: C# GUI Development.
+  Developer 3: Testing and Documentation.
